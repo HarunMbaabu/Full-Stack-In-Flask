@@ -27,9 +27,9 @@ Preriquisetes for ubuntu users:
   <li> pip install flask -To use python package manager to install flask. </li>
  </ol>
   <p style="text-align:justify;">
- <b> Note:</b> Flask looks for templates index files in a folder called <b>tempalates</b>, statics files images, JavaScripts and Cascading Style Sheet in a <b> static</b> folder.</p>
+ <b> Note:</b> Flask looks for templates index files in a folder called <b>tempalates</b>, statics files images, JavaScripts and Cascading Style Sheet in a <b> static</b> folder.
  <b>1). app.py </b>
- <code>
+ <pre>
 from flask import Flask
 # Create the application.
 app = Flask(__name__)
@@ -43,8 +43,31 @@ def index():
 if __name__ == '__main__':
     app.debug=True
     app.run()
- </code>
- 
- 
- 
+ </pre>
  </p>
+ 
+ 
+ 
+ 
+ 
+  <p style="text-align:justify;">
+ 
+ <b> templates/index.html </b>
+ <pre>
+ <!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset="utf-8" />
+  <title>Hello world!</title>
+  <link type="text/css" rel="stylesheet"href="{{ url_for('static', filename='hello.css')}}" />
+</head>
+<body>
+
+This is a flask page 
+
+</body>
+</html>
+ 
+ </pre>
+ 
+ <p>

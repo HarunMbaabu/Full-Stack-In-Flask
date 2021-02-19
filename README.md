@@ -22,11 +22,16 @@ Flask is part of the categories of the micro-framework. Micro-framework are norm
  
 ### Setting Up The Environment:
 
-***Optional step***
 
-**clone the project**
+
+**clone the project** ( ***Optional step*** )
 ~~~git
 git clone https://github.com/LuxTechAcademy/Full-Stack-In-Flask
+~~~
+
+**Move to the wotking folder**
+~~~bash
+cd Full-Stack-In-Flask
 ~~~
 
 **Install virtual environment.**

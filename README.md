@@ -22,8 +22,10 @@ Where WSGI is basically a protocol defined so that Python application can commun
  - app.py
  - Static 
  - templates
- - 
-
+ - Procfile 
+ - requirements.txt
+ - README.md
+ -  .gitingnore 
  
 ### Setting Up The Environment:
 

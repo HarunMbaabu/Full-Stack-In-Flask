@@ -20,17 +20,19 @@ Flask is part of the categories of the micro-framework. Micro-framework are norm
   Where WSGI is basically a protocol defined so that Python application can communicate with a web-server and thus be used as web-application outside of CGI  while Jinja2 is a template engine for Python.  You can use it when rendering data to web pages.  For every link you visit, you want to show the data with the formatting. By using a template engine we can seperate display logic (html, css) from the actual Python code. </p>
 
  
-Preriquisetes for ubuntu users:
- <ol>
-  <li> sudo apt install python3-venv- to install virtual environment </li>
-  <li> python3 -m venv <env name>  creating virtual environment for development. </li>
-  <li> source <env name>/bin/activate - activating environment</li>
-  <li> pip install flask -To use python package manager to install flask. </li>
- </ol>
- 
- 
- **Note:** Flask looks for templates index files in a folder called <b>tempalates</b>, statics files images, JavaScripts and Cascading Style Sheet in a **static** folder.
- 
+### Setting Up The Environment:
+
+***Optional step***
+
+**clone the project**
+~~~git
+git clone https://github.com/LuxTechAcademy/Full-Stack-In-Flask
+~~~
+
+**Install virtual environment.**
+ ~~~bash 
+ sudo apt install python3-venv
+ ~~~
  
  **Activating Virtual Environment**
  ~~~bash

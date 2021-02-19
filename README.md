@@ -29,7 +29,7 @@ Preriquisetes for ubuntu users:
  </ol>
  
  
- **Note:** Flask looks for templates index files in a folder called <b>tempalates</b>, statics files images, JavaScripts and Cascading Style Sheet in a **static"" folder.
+ **Note:** Flask looks for templates index files in a folder called <b>tempalates</b>, statics files images, JavaScripts and Cascading Style Sheet in a **static** folder.
  
  
  **Activating Virtual Environment**

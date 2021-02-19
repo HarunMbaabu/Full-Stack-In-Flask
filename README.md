@@ -39,8 +39,15 @@ Preriquisetes for ubuntu users:
  ~~~
  
  **Activating Virtual Environment**
+ ~~~python
+ source envname/bin/activate
+ ~~~
  
  **Install Requirements**
+ ~~~python
+ pip install -r requirements.txt
+ ~~~
+ 
  
 **app.py**
 

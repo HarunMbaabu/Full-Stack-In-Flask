@@ -69,5 +69,23 @@ if __name__ == '__main__':
  
  
 
+## Important Functions In flask 
+
+**Serving Service worker from flask server** 
+~~~python
+
+~~~
+
+
+**Error handler function in flask**
+
+-Serving 404 page not found template
+~~~python 
+@app.errorhandler(404)
+def page_not_found(e):
+    return render_template('404.html'), 404
+~~~
+
+
 
 

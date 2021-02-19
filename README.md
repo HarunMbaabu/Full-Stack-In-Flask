@@ -72,7 +72,19 @@ if __name__ == '__main__':
 ## Important Functions In flask 
 
 **Serving Service worker from flask server** 
+
+- Registering a service worker using Python Flask templates
+
+
 ~~~python
+
+from flask import make_response, send_from_directory
+@app.route('/sw.js')
+def sw():
+    response=make_response(send_from_directory('static',filename='sw.js'))
+    #change the content header file
+    response.headers['Content-Type'] = 'application/javascript'
+    return response
 
 ~~~
 

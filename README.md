@@ -17,6 +17,12 @@ Flask is part of the categories of the micro-framework. Micro-framework are norm
 
 Where WSGI is basically a protocol defined so that Python application can communicate with a web-server and thus be used as web-application outside of CGI  while Jinja2 is a template engine for Python.  You can use it when rendering data to web pages.  For every link you visit, you want to show the data with the formatting. By using a template engine we can seperate display logic (html, css) from the actual Python code.
 
+## App Structure:
+
+ - app.py
+ - Static 
+ - templates
+ - 
 
  
 ### Setting Up The Environment:

@@ -34,7 +34,7 @@ Preriquisetes for ubuntu users:
  
  
  **Activating Virtual Environment**
- ~~~python
+ ~~~bash
  python3 -m virtualenv envname
  ~~~
  

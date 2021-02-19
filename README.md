@@ -32,6 +32,16 @@ Preriquisetes for ubuntu users:
   <p style="text-align:justify;">
  <b> Note:</b> Flask looks for templates index files in a folder called <b>tempalates</b>, statics files images, JavaScripts and Cascading Style Sheet in a <b> static</b> folder.
  
+ 
+ **Activating Virtual Environment**
+ ~~~python
+ python3 -m virtualenv envname
+ ~~~
+ 
+ **Activating Virtual Environment**
+ 
+ **Install Requirements**
+ 
 **app.py**
 
 ~~~python
@@ -51,27 +61,6 @@ if __name__ == '__main__':
 ~~~
  
  
- 
- 
- 
-  <p style="text-align:justify;">
- 
- <b> templates/index.html </b>
- <pre>
- <!DOCTYPE html>
-<html lang='en'>
-<head>
-  <meta charset="utf-8" />
-  <title>Hello world!</title>
-  <link type="text/css" rel="stylesheet"href="{{ url_for('static', filename='hello.css')}}" />
-</head>
-<body>
 
-This is a flask page 
 
-</body>
-</html>
- 
- </pre>
- 
- <p>
+
